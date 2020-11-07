@@ -1,0 +1,68 @@
+body,html{
+    min-height:100%;
+}
+body
+{
+    background-image: url("lib.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   	 
+    background-attachment: scroll;
+}
+h3{
+    color:orange;
+    margin-top: 10px;
+    text-align: center;
+    text-indent: 50px;
+    line-height: 1.8px;
+}
+h1{
+    color:tomato;
+    margin-top: 0px;
+    text-align: center;
+    text-indent: 50px;
+    line-height: 1.8px;
+}
+.menu{
+    width 100px;
+    height:70px;
+    background-color: yellowgreen;
+}
+.leftmenu{
+    width: 25%;
+    line-height: 2px;
+    float:left;
+}
+.leftmenu h4{
+    padding-left: 50px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 27px;
+
+}
+.rightmenu{
+    width: 75%;
+    height: 100px;
+    float: right;
+    }
+.rightmenu ul{
+    margin-left: 100px;
+}
+.rightmenu ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    color: blue;
+    line-height: 30px;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+a:visited{
+    color: white;
+}
+a:hover{
+    color: orange;
+}
+a:link{
+    text-decoration: none;
+}

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+background: url(library.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+p{
+    font-style: italic;
+    font-size: 25px;
+    color: aqua;
+}
+
+ul li{
+    font-family: fantasy;
+    font-size: 20px;
+    color: pink;
+}
+ol li{
+    font-family: cursive;
+    font-size: 15px;
+    color: red;
+}
+.photo{
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+}
+
+input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
+.loginbox{
+    height: 580px;
+    width: 420px;
+    background: #000;
+    color: black;
+    top: 53%;
+    left: 73%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    float: left;
+    width: 600px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.avtar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    
+}
